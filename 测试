@@ -4,3 +4,6 @@
 			Your local changes will be overwritten by merge.
 			Commit, stash, or revert them to proceed.View them
 这个时候可以将本地的修改先撤回，然后再拉取远程代码，然后再修改+提交
+
+
+xiug
