@@ -5,4 +5,4 @@ git branch 新建分支
 
 分支创建文件--->往远程git仓库提交
 
-pycharm 我再main分支修改了下这个文件
+pycharm 我再main分支修改了下----我把这个文件删除了

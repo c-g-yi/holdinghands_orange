@@ -1,1 +1,6 @@
 中国
+问题1、  分支修改了文件     主分支也修改了文件 （拉取文件的时候会报错）
+            19:57	Git Pull Failed
+			Your local changes will be overwritten by merge.
+			Commit, stash, or revert them to proceed.View them
+这个时候可以将本地的修改先撤回，然后再拉取远程代码，然后再修改+提交
