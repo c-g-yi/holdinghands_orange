@@ -1,3 +1,8 @@
 1、file--->settings--->version control---->git---->选择git安装路径
 -- 填写git-URL
 -- 然后选择项目下载后的存放目录
+git branch 新建分支
+
+分支创建文件--->往远程git仓库提交
+
+pycharm 我再main分支修改了下这个文件
