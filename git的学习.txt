@@ -1,0 +1,108 @@
+
+git ：开源的分布式的版本控制系统
+
+无需服务端支持
+
+
+git和SVN
+        1、git是分布式的，SVN不支持分布式
+        2、git是元数据 ，SVN文件
+
+
+
+git
+        工作区：版本控制的目录
+        暂存区：git/index目录，存储新增
+        版本库：.git
+
+工作区---->add 命令----->暂存区（）---->commit 命令----->版本库---->主分支
+reset head(add的东西给取消掉)
+checkout(检出某个文件，切换分支)
+rm (删除缓存 )
+checkout head(迁出某个版本)
+
+done:
+        git clone 项目地址
+上传先更新一下：
+拉取：
+        git pull origin master
+上传
+        git push origin master -f
+
+创建本地化仓库                            ：git init（当前目录当做工作目录）
+添加到（暂存区）                                ：  git add 文件名逗号隔开/.
+查看（暂存区）是否有文件                ：git status
+查看（暂存区）文件修改内容          ： git diff 文件名/(--cached 查看缓存区的内容)
+提交文件（版本库）                        ：git commit -m '第一次提交文件' （git commit -am '直接提交不需要add' ）
+撤销（暂存区）内容                        ： git reset head
+删除缓存                                                ： git rm
+重命名                                                ：git mv 旧文件名  新文件名
+显示所有分支                                        ：git branch
+新增分支                                                ：git branch 分支名
+删除分支                                                ：git branch -d 分支名
+切换分支                                         ：git checkout 分支名
+分支合并到主分支                                ：git merge 分支名（在主分支执行，在哪个分支执行就是往哪个分支合并）
+查看提交日志                                        ：git log --online:q退出
+(标签信息)版本控制                                         ：git tag -a v1.0.0 (然后出现一个文件，填写版本的信息)（不带参数是查看标签）
+查看标签信息：                git log --oneline --decorate --graph
+
+配置远程仓库：
+        CMD
+        1、添加远程库，生成SSH的key：ssh-keygen -t rsa -C '508186387@qq.com'
+                用户目录下面/.shh 目录（公钥 私钥）
+                        私钥：复制
+                git个人账号/色ttings/ssh and gpg keys/new /起名字把密钥复制进去
+                key是没问题的: ssh -T git@github.com
+远程仓库的使用：
+        创建本地仓库：git init
+        连接到远程仓库：git remote add origin git@github.com:c-g-yi/holdinghands_orange.git
+        查看远程仓库是否有连接上：git remote -v
+        $ git remote -v
+        origin  git@github.com:c-g-yi/holdinghands_orange.git (fetch) 抓取
+        origin  git@github.com:c-g-yi/holdinghands_orange.git (push) 推送
+        1、git fetch
+        2、抓取 git push -u origin master
+
+
+直接克隆：
+        git clone git@github.com:c-g-yi/holdinghands_orange.git
+        $ git remote -v
+                没有内容
+
+
+
+
+
+
+分支冲突：1、先拉回来一份2、再提交
+        1、主分支改过  从分支也修改了，然后合并不了
+        2、手动修改
+
+-f 强制作用
+
+
+git init:初始化  仓库：
+
+linux安装：
+        安装依赖库：
+                apt -get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-dev
+        安装git核心库
+                apt-get install git-core
+        查看git版本
+                git --version
+
+windows安装：
+        1、官网下载
+        2、双击exe文件
+        3、配置（配置完成用户目录下面会有一个.gitconfig文件，存储这些配置信息）
+                名字
+                        git config --global user.name 'cgy2021'
+                邮箱
+                        git config --global user.email '508186387@qq.com'
+                查看git的配置信息：git config --list
+        4、git工作流程
+                gitURL地址：https://github.com/c-g-yi/cgy20211017.git
+                头像下方---->Settings--->SSH and GPG keys
+
+
+码云：
