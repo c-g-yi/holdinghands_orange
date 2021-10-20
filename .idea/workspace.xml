@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2126de74-ca28-41c0-84e0-2a33d65f2e54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/study_use_soft/test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/测试" beforeDir="false" afterPath="$PROJECT_DIR$/测试" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git的学习.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git的学习.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,8 @@
       <workItem from="1634556653645" duration="1083000" />
       <workItem from="1634557854354" duration="947000" />
       <workItem from="1634559987196" duration="2987000" />
-      <workItem from="1634643139491" duration="1605000" />
+      <workItem from="1634643139491" duration="1783000" />
+      <workItem from="1634732162968" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="测试从pycharm往主分支提交">
       <created>1634557307532</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634613797244</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fzhb20211019">
+      <created>1634645742126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634645742126</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Merge branch 'main' into comp_branch_2021" />
     <MESSAGE value="20.31合并" />
     <MESSAGE value="fzhb" />
-    <option name="LAST_COMMIT_MESSAGE" value="fzhb" />
+    <MESSAGE value="fzhb20211019" />
+    <option name="LAST_COMMIT_MESSAGE" value="fzhb20211019" />
   </component>
 </project>
